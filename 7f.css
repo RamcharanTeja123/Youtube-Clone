@@ -1,0 +1,27 @@
+.email{
+    color:rgb(57, 55, 55);
+    font-size: 15px;
+    font-family: arial;
+    margin-bottom: 4px;
+}
+.text{
+    border-radius:2px;
+    width:400px;
+}
+.by{
+    width:450px;
+    color:rgb(57, 55, 55);
+    font-family:arial;
+}
+.agree{
+    background-color: rgb(54, 54, 196);
+    color: white;
+    border:none;
+    width:390px;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    font-size :18px;
+}

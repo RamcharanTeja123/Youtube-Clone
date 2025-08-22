@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>flexbox</title>
+    <style>
+        .dot {
+            color:pink;
+        }
+        .ram{
+            
+           
+           justify-content: space-between;
+            font-size: 15px;
+        }
+        button{
+            background-color: black;
+            color: white;
+            width: 32px;
+            padding-left: 0px;
+        }
+        p{
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+        div{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex;
+        flex-direction: row;
+        height: 80px;
+        border-width: 0px;
+       
+        ">
+        <div class="dot" style="background-color: pink; width: 100px;">.</div>
+        <div style="background-color: lightblue; width: 200px;">
+          
+          <p>row1</p>
+          <div class="ram" style="display: flex;
+          flex-direction: row;">
+            <button>row2</button>
+            <button>row2</button>
+          </div>  
+        </div>
+        
+    </div>
+    
+</body>
+
+</html>

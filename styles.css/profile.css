@@ -1,0 +1,82 @@
+.exercise-youtube{
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    column-gap: 10px;
+    row-gap: 40px;
+    padding-left: 90px;
+    padding-top: 80px;
+    
+    background-color: rgb(249, 247, 247);
+}
+  .video-grid{  
+  cursor:pointer;  
+   
+}
+@media (min-width: 870px) and (max-width: 1124px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+   
+.thumbnail{
+    width:350px;
+    height:200px;
+    
+} 
+.thumbnail-header{
+    display: flex;
+    position:relative;
+}
+ 
+.video-time {
+    font-family: roboto,arial;
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 2px;
+    font-weight: 500;
+}
+ 
+  
+
+.profile{
+    display: grid;
+    grid-template-columns: 48px 1fr;
+
+}
+.profile-picture{
+    width: 40px;
+    height:40px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.details{
+    width: 280px;
+    padding-left: 10px;
+    font-family: roboto,Arial;
+    line-height: 20px;
+    padding-top: 13px;
+
+}
+.information {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    line-height: 20px;
+}
+.author{
+    color: rgb(81, 81, 81);
+    font-size: 13px;
+   padding-top: 8px;
+}
+.views{
+    color: rgb(81, 81, 81);
+    font-size: 13px;
+   
+}
